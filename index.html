@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic DOM Manipulation</title>
+    <style>
+        #changeTextButton {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        #styleElement {
+            padding: 15px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        #addElementButton, #removeElementButton {
+            padding: 8px 15px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        #addedElement {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: lightgreen;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dynamic DOM Fun</h1>
+    </header>
+
+    <main>
+        <p id="dynamicText">This is the initial text.</p>
+        <button id="changeTextButton">Change Text</button>
+
+        <div id="styleElement">This element will have its style changed.</div>
+        <button id="changeStyleButton">Change Style</button>
+
+        <div id="elementContainer">
+            <button id="addElementButton">Add Element</button>
+            <button id="removeElementButton">Remove Element</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dynamic DOM Examples</p>
+    </footer>
+
+  
+</body>
+</html>
